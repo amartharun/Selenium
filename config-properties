@@ -1,5 +1,1 @@
-browser=chrome
-
-chromePath=/Drivers/chromedriver
-fireFoxPath=/Drivers/
-#./Driver/chromedriver
+browser = chrome

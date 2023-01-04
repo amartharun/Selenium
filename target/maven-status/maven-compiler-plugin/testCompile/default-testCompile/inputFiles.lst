@@ -1,7 +1,7 @@
-/Users/amarthyanadh/eclipse-workspace/Selenium/src/test/java/com/banking/utilities/WaitHelper.java
-/Users/amarthyanadh/eclipse-workspace/Selenium/src/test/java/com/banking/pageObjects/AddCustomerPage.java
-/Users/amarthyanadh/eclipse-workspace/Selenium/src/test/java/com/banking/runner/Runner.java
-/Users/amarthyanadh/eclipse-workspace/Selenium/src/test/java/com/banking/pageObjects/LoginPage.java
-/Users/amarthyanadh/eclipse-workspace/Selenium/src/test/java/com/banking/pageObjects/SearchCustomerPage.java
-/Users/amarthyanadh/eclipse-workspace/Selenium/src/test/java/com/banking/stepDefinitions/Login.java
-/Users/amarthyanadh/eclipse-workspace/Selenium/src/test/java/com/banking/stepDefinitions/BaseClass.java
+C:\Users\Amar\eclipse-workspace\CucumberDemo\src\test\java\pageObjetcs\AddCustomerPage.java
+C:\Users\Amar\eclipse-workspace\CucumberDemo\src\test\java\utilities\WaitHelper.java
+C:\Users\Amar\eclipse-workspace\CucumberDemo\src\test\java\runner\TestRunner.java
+C:\Users\Amar\eclipse-workspace\CucumberDemo\src\test\java\stepDefinitions\Login.java
+C:\Users\Amar\eclipse-workspace\CucumberDemo\src\test\java\pageObjetcs\SearchCustomerPage.java
+C:\Users\Amar\eclipse-workspace\CucumberDemo\src\test\java\pageObjetcs\LoginPage.java
+C:\Users\Amar\eclipse-workspace\CucumberDemo\src\test\java\stepDefinitions\BaseClass.java
