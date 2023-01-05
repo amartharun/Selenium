@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="3" failures="1" name="runner.TestRunner" time="31.987" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.5+9-LTS-191"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.5\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Amar\eclipse-workspace\Cucumber"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Amar\eclipse-workspace\Cucumber"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="17.0.5+9-LTS-191"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Amar\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\ProgramData\chocolatey\lib\maven\apache-maven-3.8.5\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.5\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.8.5\bin;C:\Program Files\Java\jdk-17.0.5\bin;C:\Users\Amar\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2022.1\bin;;C:\Program Files\Oracle\VirtualBox;;C:\Users\Amar\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="maven.conf" value="C:\ProgramData\chocolatey\lib\maven\apache-maven-3.8.5/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\ProgramData\chocolatey\lib\maven\apache-maven-3.8.5\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Amar"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="Amar"/>
+    <property name="java.class.path" value="C:\ProgramData\chocolatey\lib\maven\apache-maven-3.8.5\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.5"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17.0.5"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="C:\ProgramData\chocolatey\lib\maven\apache-maven-3.8.5"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Add New Customer" name="Search Customer by EmailId" time="16.784"/>
+  <testcase classname="LoginPage" name="Login Data Driven #1" time="10.287"/>
+  <testcase classname="LoginPage" name="Login Data Driven #2" time="4.916">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at stepDefinitions.Login.page_title_should_be(Login.java:46)
+	at ✽.page title should be &quot;Dashboard / nopCommerce administration&quot;(file:///C:/Users/Amar/eclipse-workspace/Cucumber/./Features/Login.feature:20)
+</failure>
+    <system-out>[DEBUG] Resolution chrome=108 in cache (valid until 16:40:08 02/01/2023 IST)
+[DEBUG] Resolution chrome108=108.0.5359.71 in cache (valid until 11:49:21 03/01/2023 IST)
+[INFO] Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+[DEBUG] Driver chromedriver 108.0.5359.71 found in cache
+[INFO] Exporting webdriver.chrome.driver as C:\Users\Amar\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+[DEBUG] Using new Channel &apos;[id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451]&apos; for &apos;POST&apos; to &apos;/session&apos;
+[DEBUG] Entry count for : http://localhost:60574 : 1
+[DEBUG] Entry count for : http://localhost:56567 : 1
+[DEBUG] Adding Candidate expired Channel [id: 0x17a2f44c, L:/127.0.0.1:56566 ! R:localhost/127.0.0.1:60574] isIdleTimeoutExpired=false isRemotelyClosed=true isTtlExpired=false
+[DEBUG] Closing Idle Channel [id: 0x17a2f44c, L:/127.0.0.1:56566 ! R:localhost/127.0.0.1:60574]
+[DEBUG] Adding Candidate expired Channel [id: 0x3d452051, L:/127.0.0.1:56572 ! R:localhost/127.0.0.1:56567] isIdleTimeoutExpired=false isRemotelyClosed=true isTtlExpired=false
+[DEBUG] Closing Idle Channel [id: 0x3d452051, L:/127.0.0.1:56572 ! R:localhost/127.0.0.1:56567]
+[DEBUG] Closed 2 connections out of 2 in 0 ms
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session HTTP/1.1
+User-Agent: selenium/4.2.1 (java windows)
+Content-Length: 365
+Content-Type: application/json; charset=utf-8
+host: localhost:65451
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 789
+
+[DEBUG] Adding key: http://localhost:65451 for channel [id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451]
+[DEBUG] Using new Channel &apos;[id: 0xf7419d3f, L:/127.0.0.1:56602 - R:localhost/127.0.0.1:56596]&apos; for &apos;GET&apos; to &apos;/json/version&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /json/version HTTP/1.1
+User-Agent: selenium/4.2.1 (java windows)
+host: localhost:56596
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=UTF-8
+content-length: 424
+
+[DEBUG] Adding key: http://localhost:56596 for channel [id: 0xf7419d3f, L:/127.0.0.1:56602 - R:localhost/127.0.0.1:56596]
+[DEBUG] Using new Channel &apos;[id: 0x1c20946c, L:/127.0.0.1:56603 - R:localhost/127.0.0.1:56596]&apos; for &apos;GET&apos; to &apos;/devtools/browser/c052026d-b4d9-4495-ac47-fcac0305446e&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /devtools/browser/c052026d-b4d9-4495-ac47-fcac0305446e HTTP/1.1
+upgrade: websocket
+connection: upgrade
+sec-websocket-key: 6PWjK3g2ZUpIy2kRHxt/lQ==
+sec-websocket-version: 13
+origin: http://localhost:56596
+host: localhost:56596
+accept: */*
+user-agent: AHC/2.1
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 101 WebSocket Protocol Handshake
+Upgrade: WebSocket
+Connection: Upgrade
+Sec-WebSocket-Accept: IEq1fA2bGIk3pFGvphOoSICqlAk=
+
+[DEBUG] Using pooled Channel &apos;[id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451]&apos; for &apos;POST&apos; to &apos;http://localhost:65451/session/551365684d336bf4074252c926d6036d/url&apos;
+[DEBUG] Using open Channel [id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451] for POST &apos;/session/551365684d336bf4074252c926d6036d/url&apos;
+[DEBUG] Entry count for : http://localhost:56596 : 1
+[DEBUG] Entry count for : http://localhost:56596 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/551365684d336bf4074252c926d6036d/url HTTP/1.1
+User-Agent: selenium/4.2.1 (java windows)
+Content-Length: 92
+Content-Type: application/json; charset=utf-8
+host: localhost:65451
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+[DEBUG] Adding key: http://localhost:65451 for channel [id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451]
+[DEBUG] Using pooled Channel &apos;[id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451]&apos; for &apos;POST&apos; to &apos;http://localhost:65451/session/551365684d336bf4074252c926d6036d/element&apos;
+[DEBUG] Using open Channel [id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451] for POST &apos;/session/551365684d336bf4074252c926d6036d/element&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/551365684d336bf4074252c926d6036d/element HTTP/1.1
+User-Agent: selenium/4.2.1 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:65451
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+[DEBUG] Adding key: http://localhost:65451 for channel [id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451]
+[DEBUG] Using pooled Channel &apos;[id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451]&apos; for &apos;POST&apos; to &apos;http://localhost:65451/session/551365684d336bf4074252c926d6036d/execute/sync&apos;
+[DEBUG] Using open Channel [id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451] for POST &apos;/session/551365684d336bf4074252c926d6036d/execute/sync&apos;
+[DEBUG] Entry count for : http://localhost:56596 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/551365684d336bf4074252c926d6036d/execute/sync HTTP/1.1
+User-Agent: selenium/4.2.1 (java windows)
+Content-Length: 48780
+Content-Type: application/json; charset=utf-8
+host: localhost:65451
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+[DEBUG] Adding key: http://localhost:65451 for channel [id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451]
+[DEBUG] Using pooled Channel &apos;[id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451]&apos; for &apos;POST&apos; to &apos;http://localhost:65451/session/551365684d336bf4074252c926d6036d/element&apos;
+[DEBUG] Using open Channel [id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451] for POST &apos;/session/551365684d336bf4074252c926d6036d/element&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/551365684d336bf4074252c926d6036d/element HTTP/1.1
+User-Agent: selenium/4.2.1 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:65451
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+[DEBUG] Adding key: http://localhost:65451 for channel [id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451]
+[DEBUG] Using pooled Channel &apos;[id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451]&apos; for &apos;POST&apos; to &apos;http://localhost:65451/session/551365684d336bf4074252c926d6036d/element/49e9a52e-7441-4118-a766-8d342015729d/clear&apos;
+[DEBUG] Using open Channel [id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451] for POST &apos;/session/551365684d336bf4074252c926d6036d/element/49e9a52e-7441-4118-a766-8d342015729d/clear&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/551365684d336bf4074252c926d6036d/element/49e9a52e-7441-4118-a766-8d342015729d/clear HTTP/1.1
+User-Agent: selenium/4.2.1 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:65451
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+[DEBUG] Adding key: http://localhost:65451 for channel [id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451]
+[DEBUG] Using pooled Channel &apos;[id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451]&apos; for &apos;POST&apos; to &apos;http://localhost:65451/session/551365684d336bf4074252c926d6036d/element&apos;
+[DEBUG] Using open Channel [id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451] for POST &apos;/session/551365684d336bf4074252c926d6036d/element&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/551365684d336bf4074252c926d6036d/element HTTP/1.1
+User-Agent: selenium/4.2.1 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:65451
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+[DEBUG] Adding key: http://localhost:65451 for channel [id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451]
+[DEBUG] Using pooled Channel &apos;[id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451]&apos; for &apos;POST&apos; to &apos;http://localhost:65451/session/551365684d336bf4074252c926d6036d/element/49e9a52e-7441-4118-a766-8d342015729d/value&apos;
+[DEBUG] Using open Channel [id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451] for POST &apos;/session/551365684d336bf4074252c926d6036d/element/49e9a52e-7441-4118-a766-8d342015729d/value&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/551365684d336bf4074252c926d6036d/element/49e9a52e-7441-4118-a766-8d342015729d/value HTTP/1.1
+User-Agent: selenium/4.2.1 (java windows)
+Content-Length: 271
+Content-Type: application/json; charset=utf-8
+host: localhost:65451
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+[DEBUG] Adding key: http://localhost:65451 for channel [id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451]
+[DEBUG] Using pooled Channel &apos;[id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451]&apos; for &apos;POST&apos; to &apos;http://localhost:65451/session/551365684d336bf4074252c926d6036d/element&apos;
+[DEBUG] Using open Channel [id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451] for POST &apos;/session/551365684d336bf4074252c926d6036d/element&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/551365684d336bf4074252c926d6036d/element HTTP/1.1
+User-Agent: selenium/4.2.1 (java windows)
+Content-Length: 53
+Content-Type: application/json; charset=utf-8
+host: localhost:65451
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+[DEBUG] Adding key: http://localhost:65451 for channel [id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451]
+[DEBUG] Using pooled Channel &apos;[id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451]&apos; for &apos;POST&apos; to &apos;http://localhost:65451/session/551365684d336bf4074252c926d6036d/element/50b22a49-1f33-4614-b787-2a35ff365eb6/clear&apos;
+[DEBUG] Using open Channel [id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451] for POST &apos;/session/551365684d336bf4074252c926d6036d/element/50b22a49-1f33-4614-b787-2a35ff365eb6/clear&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/551365684d336bf4074252c926d6036d/element/50b22a49-1f33-4614-b787-2a35ff365eb6/clear HTTP/1.1
+User-Agent: selenium/4.2.1 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:65451
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+[DEBUG] Adding key: http://localhost:65451 for channel [id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451]
+[DEBUG] Using pooled Channel &apos;[id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451]&apos; for &apos;POST&apos; to &apos;http://localhost:65451/session/551365684d336bf4074252c926d6036d/element&apos;
+[DEBUG] Using open Channel [id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451] for POST &apos;/session/551365684d336bf4074252c926d6036d/element&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/551365684d336bf4074252c926d6036d/element HTTP/1.1
+User-Agent: selenium/4.2.1 (java windows)
+Content-Length: 53
+Content-Type: application/json; charset=utf-8
+host: localhost:65451
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+[DEBUG] Adding key: http://localhost:65451 for channel [id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451]
+[DEBUG] Using pooled Channel &apos;[id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451]&apos; for &apos;POST&apos; to &apos;http://localhost:65451/session/551365684d336bf4074252c926d6036d/element/50b22a49-1f33-4614-b787-2a35ff365eb6/value&apos;
+[DEBUG] Using open Channel [id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451] for POST &apos;/session/551365684d336bf4074252c926d6036d/element/50b22a49-1f33-4614-b787-2a35ff365eb6/value&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/551365684d336bf4074252c926d6036d/element/50b22a49-1f33-4614-b787-2a35ff365eb6/value HTTP/1.1
+User-Agent: selenium/4.2.1 (java windows)
+Content-Length: 111
+Content-Type: application/json; charset=utf-8
+host: localhost:65451
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+[DEBUG] Adding key: http://localhost:65451 for channel [id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451]
+[DEBUG] Using pooled Channel &apos;[id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451]&apos; for &apos;POST&apos; to &apos;http://localhost:65451/session/551365684d336bf4074252c926d6036d/element&apos;
+[DEBUG] Using open Channel [id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451] for POST &apos;/session/551365684d336bf4074252c926d6036d/element&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/551365684d336bf4074252c926d6036d/element HTTP/1.1
+User-Agent: selenium/4.2.1 (java windows)
+Content-Length: 72
+Content-Type: application/json; charset=utf-8
+host: localhost:65451
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+[DEBUG] Adding key: http://localhost:65451 for channel [id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451]
+[DEBUG] Using pooled Channel &apos;[id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451]&apos; for &apos;POST&apos; to &apos;http://localhost:65451/session/551365684d336bf4074252c926d6036d/element/c91a6cad-a794-4d77-9779-ecf21503e08a/click&apos;
+[DEBUG] Using open Channel [id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451] for POST &apos;/session/551365684d336bf4074252c926d6036d/element/c91a6cad-a794-4d77-9779-ecf21503e08a/click&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/551365684d336bf4074252c926d6036d/element/c91a6cad-a794-4d77-9779-ecf21503e08a/click HTTP/1.1
+User-Agent: selenium/4.2.1 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:65451
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+[DEBUG] Adding key: http://localhost:65451 for channel [id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451]
+[DEBUG] Using pooled Channel &apos;[id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451]&apos; for &apos;POST&apos; to &apos;http://localhost:65451/session/551365684d336bf4074252c926d6036d/execute/sync&apos;
+[DEBUG] Using open Channel [id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451] for POST &apos;/session/551365684d336bf4074252c926d6036d/execute/sync&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/551365684d336bf4074252c926d6036d/execute/sync HTTP/1.1
+User-Agent: selenium/4.2.1 (java windows)
+Content-Length: 176
+Content-Type: application/json; charset=utf-8
+host: localhost:65451
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 4672
+
+[DEBUG] Adding key: http://localhost:65451 for channel [id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451]
+[DEBUG] Channel Closed: [id: 0x1c20946c, L:/127.0.0.1:56603 ! R:localhost/127.0.0.1:56596] with attribute NettyResponseFuture{currentRetry=0,
+	isDone=1,
+	isCancelled=0,
+	asyncHandler=org.asynchttpclient.ws.WebSocketUpgradeHandler@55a894b4,
+	nettyRequest=org.asynchttpclient.netty.request.NettyRequest@1ab232ac,
+	future=java.util.concurrent.CompletableFuture@76cc9f86[Completed normally],
+	uri=ws://localhost:56596/devtools/browser/c052026d-b4d9-4495-ac47-fcac0305446e,
+	keepAlive=true,
+	redirectCount=0,
+	timeoutsHolder=null,
+	inAuth=0,
+	touch=1672655549917}
+[DEBUG] Closing Channel [id: 0x1c20946c, L:/127.0.0.1:56603 ! R:localhost/127.0.0.1:56596] 
+[DEBUG] Using pooled Channel &apos;[id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451]&apos; for &apos;DELETE&apos; to &apos;http://localhost:65451/session/551365684d336bf4074252c926d6036d&apos;
+[DEBUG] Using open Channel [id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451] for DELETE &apos;/session/551365684d336bf4074252c926d6036d&apos;
+[DEBUG] Unexpected I/O exception on channel [id: 0xf7419d3f, L:/127.0.0.1:56602 - R:localhost/127.0.0.1:56596]
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[na:na]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258) ~[netty-buffer-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722) ~[netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658) ~[netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584) ~[netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496) ~[netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+[DEBUG] Closing Channel [id: 0xf7419d3f, L:/127.0.0.1:56602 - R:localhost/127.0.0.1:56596] 
+[DEBUG] Channel Closed: [id: 0xf7419d3f, L:/127.0.0.1:56602 ! R:localhost/127.0.0.1:56596] with attribute DISCARD
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+DELETE /session/551365684d336bf4074252c926d6036d HTTP/1.1
+User-Agent: selenium/4.2.1 (java windows)
+Content-Type: application/json; charset=utf-8
+host: localhost:65451
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+[DEBUG] Adding key: http://localhost:65451 for channel [id: 0x7d145b42, L:/127.0.0.1:56595 - R:localhost/127.0.0.1:65451]
+[DEBUG] Entry count for : http://localhost:65451 : 1
+[DEBUG] Entry count for : http://localhost:56596 : 1
+[DEBUG] Adding Candidate expired Channel [id: 0xf7419d3f, L:/127.0.0.1:56602 ! R:localhost/127.0.0.1:56596] isIdleTimeoutExpired=false isRemotelyClosed=true isTtlExpired=false
+[DEBUG] Closing Idle Channel [id: 0xf7419d3f, L:/127.0.0.1:56602 ! R:localhost/127.0.0.1:56596]
+[DEBUG] Closed 1 connections out of 2 in 1 ms
+[DEBUG] Channel Closed: [id: 0x7d145b42, L:/127.0.0.1:56595 ! R:localhost/127.0.0.1:65451] with attribute DISCARD
+</system-out>
+    <system-err>Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 65451
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 02, 2023 4:02:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jan 02, 2023 4:02:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 108, so returning the closest version found: a no-op implementation
+Jan 02, 2023 4:02:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 108.
+Jan 02, 2023 4:02:29 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.2.1` where the version (&quot;v86&quot;) matches the version of the chromium-based browser you&apos;re using and the version number of the artifact is the same as Selenium&apos;s.
+</system-err>
+  </testcase>
+</testsuite>
